@@ -10,7 +10,7 @@
 
 h1 {
 	font-family: 'Kaushan Script', cursive;
-	font-size: 34px;
+	font-size: 36px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -22,6 +22,11 @@ h2{
 	margin-bottom: 0px;
 }
 
+h3{
+	font-family: 'Times new Roman';
+	font-size: 18px;
+}
+
 p{
 	font-family: 'Arial';
 	font-size: 14px;
@@ -29,9 +34,62 @@ p{
 
 #img1{
 	width: 310px;
+	margin-left: -8px;
 	float: left;
 }
 
 #verdade{
-	
+	padding-left: 315px; /*310-8+13*/
+}
+
+#hoje{
+	width: 405px;
+	background-color: #f8cef7;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ff56fb;
+	float: right;
+	margin-right: 17px; /*25-8*/
+}
+
+#hoje img{
+	width: 112px;
+	height: 112px;
+	display: block;
+    margin: 0 auto;
+}
+
+#hoje p{
+	padding-right: 35px;
+	padding-left: 35px;
+	text-align: center;
+}
+
+#hoje h2{
+	text-align: center;
+	margin-top: 13px;/*20-7*/
+}
+
+#hoje h3{
+	text-align: center;
+}
+
+#bottom{
+	margin-bottom: 30px;
+}
+
+#musica{
+	margin-left: 4px; /*12-8*/
+}
+
+.frente{
+	margin-left: 34px;
+}
+
+.destacado{
+	background-color: #c4caf3;
+	color: #004a79;
+	padding-left: 12px;
+	margin-left: -12px;
+	margin-right: -8px;
 }
